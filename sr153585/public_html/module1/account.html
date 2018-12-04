@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../css/site.css">
+<style>
+.sub-entry {
+    width: 50%;
+    float: left;
+}
+</style>
+<title>Create an Account</title>
+</head>
+
+<body>
+<form action="mailto:ronaldshevchenko1@gmail.com" method="post" enctype="text/plain">
+First Name:<br>
+<input type="text" name="first name"><br>
+
+Last Name:<br>
+<input type="text" name="last name"><br>
+
+Email Address:<br>
+<input type="text" name="email"><br>
+
+Password:<br>
+<input type="password" name="pass"><br>
+
+Confirm Password:<br>
+<input type="password" name="confirm pass"><br>
+
+Birth Date:<br>
+<input type="date" name="bday" min="1970-01-01" max="2020-12-31" value="2015-10-21"><br>
+
+Degree Track:<br>
+<label class="container">
+	<a href="https://www.unf.edu/ccec/computing/Computer_Science_Program.aspx" target="_blank">Computer Science</a>
+	<input type="radio" name="track" value="compsci">
+	<span class="radiocheck"></span>
+</label>
+<label class="container">
+	<a href="https://www.unf.edu/ccec/computing/Information_Science_Program.aspx" target="_blank">Information Science</a><br>
+	<input type="radio" name="track" value="inf sci">
+	<span class="radiocheck"></span>
+</label>
+<label class="container">
+	<a href="https://www.unf.edu/ccec/computing/Information_Systems_Program.aspx" target="_blank">Information Systems</a><br>
+	<input type="radio" name="track" value="isf sys">
+	<span class="radiocheck"></span>
+</label>
+<label class="container">
+	<a href="https://www.unf.edu/ccec/computing/Information_Technology_Program.aspx" target="_blank">Information Technology</a><br>
+	<input type="radio" name="track" value="inf tech">
+	<span class="radiocheck"></span>
+</label>
+
+Programming Language Experience:
+<table>
+	<tr>
+		<td><label class="container"> C
+			<input type="checkbox" name="c">
+			<span class="checkmark"></span>
+		</label></td>
+		<td><label class="container"> C#
+			<input type="checkbox" name="c#">
+			<span class="checkmark"></span>
+		</label></td>
+	</tr><tr>
+		<td><label class="container"> Java
+			<input type="checkbox" name="java">
+			<span class="checkmark"></span>
+		</label></td>  
+		<td><label class="container"> Javascript
+			<input type="checkbox" name="javascript">
+			<span class="checkmark"></span>
+		</label></td>
+	</tr><tr>
+		<td><label class="container"> PHP
+			<input type="checkbox" name="php">
+			<span class="checkmark"></span>
+		</label></td>  
+		<td><label class="container"> Python
+			<input type="checkbox" name="python">
+			<span class="checkmark"></span>
+		</label></td>
+	</tr><tr>
+		<td><label class="container"> Visual Basic
+			<input type="checkbox" name="visual basic">
+			<span class="checkmark"></span>
+		</label></td>   
+		<td><label class="container"> Other
+			<input type="checkbox" name="other">
+			<span class="checkmark"></span>
+		</label></td>
+	</tr>
+</table><br>
+
+<input type="submit" value="Submit"><input type="reset" value="Reset"><br><br>
+</form>
+
+<a href="index.html">Personal</a>
+<a href="../index.html">ePortfolio</a>
+
+</body>
+
+</html>

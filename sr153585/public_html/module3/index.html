@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Statistical Calculator</title>
+<link rel="stylesheet" type="text/css" href="../css/site.css">
+</head>
+<body>
+
+<h2 class="stats">Statistical Calculator</h2>
+<form id="calculator" onSubmit="return performStatistics();">
+<textarea id="area" required></textarea><br>
+<input type="reset" value="Reset" class="stats">
+<input type="submit" value="Submit" class="stats"><br><br>
+<div class="stats">
+<div class="row"><lable>Max: </lable><input type="text" id="max" readonly><br></div>
+<div class="row"><lable>Mean: </lable><input type="text" id="mean" readonly><br></div>
+<div class="row"><lable>Median: </lable><input type="text" id="median" readonly><br></div>
+<div class="row"><lable>Min: </lable><input type="text" id="min" readonly><br></div>
+<div class="row"><lable>Mode: </lable><input type="text" id="mode" readonly><br></div>
+<div class="row"><lable>Std Dev: </lable><input type="text" id="stddev" readonly><br></div>
+<div class="row"><lable>Sum:</lable> <input type="text" id="sum" readonly><br></div>
+<div class="row"><lable>Variance: </lable><input type="text" id="variance" readonly></div>
+</div>
+</form>
+
+<script src="script.js" type="text/javascript"></script>
+
+<br><a href="../index.html" class="eport">ePortfolio</a>
+
+</body>
+</html>
